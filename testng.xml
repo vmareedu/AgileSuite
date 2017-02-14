@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginSuite">
+  <test name="LoginScenarios">
+    <classes>
+      <class name="com.ChildWelfare.Testcases.Sprint1.TC01_AllowLogin"/>
+       <class name="com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login"/>
+      
+    </classes>
+  </test> <!-- LoginScenarios -->
+</suite> <!-- LoginSuite -->

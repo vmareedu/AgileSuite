@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[waiting for page to load...]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[entering userName to the userName textbox]]>
+    </line>
+    <line>
+      <![CDATA[entering password to the password textbox]]>
+    </line>
+    <line>
+      <![CDATA[clicking on login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Success]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load...]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[entering Valid userName ]]>
+    </line>
+    <line>
+      <![CDATA[entering Blank Password]]>
+    </line>
+    <line>
+      <![CDATA[clicking on login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed with Empty Password]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load...]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[entering Blank userName ]]>
+    </line>
+    <line>
+      <![CDATA[entering Blank Password]]>
+    </line>
+    <line>
+      <![CDATA[clicking on login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed with Empty Username]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed with Empty Password]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load...]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[entering Blank userName ]]>
+    </line>
+    <line>
+      <![CDATA[entering Blank Password]]>
+    </line>
+    <line>
+      <![CDATA[clicking on login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed with Empty Username]]>
+    </line>
+    <line>
+      <![CDATA[waiting for page to load...]]>
+    </line>
+    <line>
+      <![CDATA[Page is loaded]]>
+    </line>
+    <line>
+      <![CDATA[entering Blank userName ]]>
+    </line>
+    <line>
+      <![CDATA[entering Blank Password]]>
+    </line>
+    <line>
+      <![CDATA[clicking on login button]]>
+    </line>
+    <line>
+      <![CDATA[Login Failed with Non Register User]]>
+    </line>
+  </reporter-output>
+  <suite name="LoginSuite" duration-ms="19924" started-at="2017-02-14T01:15:33Z" finished-at="2017-02-14T01:15:53Z">
+    <groups>
+    </groups>
+    <test name="LoginScenarios" duration-ms="19924" started-at="2017-02-14T01:15:33Z" finished-at="2017-02-14T01:15:53Z">
+      <class name="com.ChildWelfare.Testcases.Sprint1.TC01_AllowLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC01_AllowLogin@6cd8737]" name="setUp" is-config="true" duration-ms="3398" started-at="2017-02-13T19:15:33Z" finished-at="2017-02-13T19:15:36Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load...]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AllowsLogin_Sucess()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC01_AllowLogin@6cd8737]" name="AllowsLogin_Sucess" duration-ms="538" started-at="2017-02-13T19:15:36Z" finished-at="2017-02-13T19:15:37Z">
+          <reporter-output>
+            <line>
+              <![CDATA[entering userName to the userName textbox]]>
+            </line>
+            <line>
+              <![CDATA[entering password to the password textbox]]>
+            </line>
+            <line>
+              <![CDATA[clicking on login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AllowsLogin_Sucess -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC01_AllowLogin@6cd8737]" name="testDown" is-config="true" duration-ms="919" started-at="2017-02-13T19:15:37Z" finished-at="2017-02-13T19:15:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.ChildWelfare.Testcases.Sprint1.TC01_AllowLogin -->
+      <class name="com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="setUp" is-config="true" duration-ms="2665" started-at="2017-02-13T19:15:38Z" finished-at="2017-02-13T19:15:40Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load...]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DisallowLogin_EmptyPassword()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="DisallowLogin_EmptyPassword" duration-ms="305" started-at="2017-02-13T19:15:40Z" finished-at="2017-02-13T19:15:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[entering Valid userName ]]>
+            </line>
+            <line>
+              <![CDATA[entering Blank Password]]>
+            </line>
+            <line>
+              <![CDATA[clicking on login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed with Empty Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisallowLogin_EmptyPassword -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="testDown" is-config="true" duration-ms="737" started-at="2017-02-13T19:15:41Z" finished-at="2017-02-13T19:15:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="setUp" is-config="true" duration-ms="2836" started-at="2017-02-13T19:15:41Z" finished-at="2017-02-13T19:15:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load...]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DisallowLogin_EmptyUserNamePassword()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="DisallowLogin_EmptyUserNamePassword" duration-ms="275" started-at="2017-02-13T19:15:44Z" finished-at="2017-02-13T19:15:44Z">
+          <reporter-output>
+            <line>
+              <![CDATA[entering Blank userName ]]>
+            </line>
+            <line>
+              <![CDATA[entering Blank Password]]>
+            </line>
+            <line>
+              <![CDATA[clicking on login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed with Empty Username]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed with Empty Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisallowLogin_EmptyUserNamePassword -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="testDown" is-config="true" duration-ms="750" started-at="2017-02-13T19:15:44Z" finished-at="2017-02-13T19:15:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="setUp" is-config="true" duration-ms="2723" started-at="2017-02-13T19:15:45Z" finished-at="2017-02-13T19:15:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load...]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DisallowLogin_EmptyUsername()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="DisallowLogin_EmptyUsername" duration-ms="266" started-at="2017-02-13T19:15:48Z" finished-at="2017-02-13T19:15:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[entering Blank userName ]]>
+            </line>
+            <line>
+              <![CDATA[entering Blank Password]]>
+            </line>
+            <line>
+              <![CDATA[clicking on login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed with Empty Username]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisallowLogin_EmptyUsername -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="testDown" is-config="true" duration-ms="745" started-at="2017-02-13T19:15:48Z" finished-at="2017-02-13T19:15:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="setUp" is-config="true" duration-ms="2716" started-at="2017-02-13T19:15:49Z" finished-at="2017-02-13T19:15:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[waiting for page to load...]]>
+            </line>
+            <line>
+              <![CDATA[Page is loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="DisallowLogin_UnregisterUser()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="DisallowLogin_UnregisterUser" duration-ms="302" started-at="2017-02-13T19:15:52Z" finished-at="2017-02-13T19:15:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[entering Blank userName ]]>
+            </line>
+            <line>
+              <![CDATA[entering Blank Password]]>
+            </line>
+            <line>
+              <![CDATA[clicking on login button]]>
+            </line>
+            <line>
+              <![CDATA[Login Failed with Non Register User]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DisallowLogin_UnregisterUser -->
+        <test-method status="PASS" signature="testDown()[pri:0, instance:com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login@6b2fad11]" name="testDown" is-config="true" duration-ms="739" started-at="2017-02-13T19:15:52Z" finished-at="2017-02-13T19:15:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDown -->
+      </class> <!-- com.ChildWelfare.Testcases.Sprint1.TC02_Disallow_Login -->
+    </test> <!-- LoginScenarios -->
+  </suite> <!-- LoginSuite -->
+</testng-results>
